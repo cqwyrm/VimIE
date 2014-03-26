@@ -3,8 +3,9 @@
 ; author : cqwyrm
 
 
-#IfWinActive ahk_class IEFrame ; works ONLY in IE
+#IfWinActive ahk_class IEFrame ; works ONLY if IE is active
 {
+
 ; Mode Switching
 Esc:: Suspend ; toggle Vim/Normal mode
 
@@ -33,7 +34,7 @@ s:: send {end} ; go bottom  of page
 ; Search
 /:: 
 send ^f ; search in page
-Suspend on ; Edit mode on
+Suspend on ;  back to Normal mode
 return ;
 
 
