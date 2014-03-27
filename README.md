@@ -8,9 +8,10 @@ Usage
 
  
 		Esc		toggle Vim/Normal mode
+		g"n"		switch to the "n"th tab ( n is between 1 and 8)
 		c		duplicate current tab
 		d		close current tab
-		g		edit url address 
+		o		edit url address 
 		h		go back in history
 		l		go forward in history
  		j		move cursor up
