@@ -8,7 +8,7 @@ Usage
 
  
 		Esc		toggle Vim/Normal mode
-		g"n"		switch to the "n"th tab ( n is between 1 and 8)
+		gn		switch to the "n"th tab ( n is an integer between 1 and 8)
 		c		duplicate current tab
 		d		close current tab
 		o		edit url address 
