@@ -1,11 +1,21 @@
-; Vim key bindings for IE
-; released under GPLv2
-; contact author : cqwyrm at gmail dot com
+; Vim-like key bindings for IE
+; Copyright (C) 2014 cqwyrm
+; Contact me: cqwyrm at gmail dot com
+
+; This program is free software; you can redistribute it and/or
+; published by the Free Software Foundation; either version 2 of the
+; License, or (at your option) any later version.
+
+; This program is distributed in the hope that it will be useful,
+; but WITHOUT ANY WARRANTY; without even the implied warranty of 
+; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+; GNU General Public License for more details.
+; modify it under the terms of the GNU General Public License as
 
 
 #IfWinActive ahk_class IEFrame ; works ONLY if IE is active
-{
 
+{
 ; Mode Switching
 Esc:: Suspend ; toggle Vim/Normal mode
 
@@ -23,7 +33,7 @@ send ^t ; open new tab
 Suspend on ; back to Normal mode
 return ;
 
-g:: ; switch to a specific tab N ("N" is a number between 1 and 8)
+g:: ; switch to the "N"th tab ("N" is a number between 1 and 8)
 input, num, L1
 if num between 1 and 8
 	send ^%num%
@@ -51,6 +61,6 @@ send !d ; edit url address
 Suspend on ;  switch to Normal mode
 return ;
 
-; Bookmars
+; Bookmarks
 a:: ^d ; add bookmark
 }
