@@ -1,6 +1,6 @@
 ; Vim key bindings for IE
 ; released under GPLv2
-; author : cqwyrm
+; contact author : cqwyrm at gmail dot com
 
 
 #IfWinActive ahk_class IEFrame ; works ONLY if IE is active
@@ -10,6 +10,7 @@
 Esc:: Suspend ; toggle Vim/Normal mode
 
 ; Tabs
+b:: send ^9 ; switch to last tab
 c:: send ^k ; duplicate current tab
 d:: send ^w ; close a tab
 n:: send ^{tab} ; next tab
@@ -21,6 +22,12 @@ t::
 send ^t ; open new tab
 Suspend on ; back to Normal mode
 return ;
+
+g:: ; switch to a specific tab N ("N" is a number between 1 and 8)
+input, num, L1
+if num between 1 and 8
+	send ^%num%
+return
 
 ; Browsing
 h:: send !{left} ; back in history
@@ -39,9 +46,11 @@ return ;
 
 
 ; Address Bar
-g:: 
+o:: 
 send !d ; edit url address
 Suspend on ;  switch to Normal mode
 return ;
 
+; Bookmars
+a:: ^d ; add bookmark
 }
