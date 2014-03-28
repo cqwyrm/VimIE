@@ -59,9 +59,14 @@ s:: send {end} ; go bottom  of page
 
 ; Address Bar
 o:: 
-	send !d ; edit url address
+	send !d ; edit in the address bar
 	Suspend on ;  switch to Normal mode
 	return ;
+
+q::
+    ^e ; open a search query in the address bar
+    Suspend on ; enter Normal mode
+    return ;
 
 ; Bookmarks
 a:: ^d ; add bookmark

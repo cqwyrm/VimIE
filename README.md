@@ -19,6 +19,7 @@ Usage
  		k		move cursor down
 		n		go to next tab
 		p		go to previous tab
+        q       open a search query in the address bar
 		r		refresh current tab
 		u		reopen last closed tab
 		t		open new tab
@@ -33,5 +34,6 @@ I have to use IE on my old laptop everyday. Chrome(Vimium) and Firefox(Vimperato
 
 Todo
 ====
-Add a tray icon or sound alert when Normal mode is toggled.
+    Add a tray icon or sound alert when Normal mode is toggled.
+    When the cursor is in the address bar or search box, enter Normal mode automatically.
   
