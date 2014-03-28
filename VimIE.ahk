@@ -20,6 +20,7 @@
 Esc:: Suspend ; toggle Vim/Normal mode
 
 ; Tabs
+
 b:: send ^9 ; switch to last tab
 c:: send ^k ; duplicate current tab
 d:: send ^w ; close a tab
@@ -28,16 +29,17 @@ p:: send ^+{tab} ; previous tab
 u:: send ^+t ; restore the last closed tab
 x:: send ^{F4} ; close all other tabs
 r:: send {F5} ; refresh tab
+
 t:: 
-send ^t ; open new tab
-Suspend on ; back to Normal mode
-return ;
+	send ^t ; open new tab
+	Suspend on ; back to Normal mode
+	return ;
 
 g:: ; switch to the "N"th tab ("N" is a number between 1 and 8)
-input, num, L1
-if num between 1 and 8
-	send ^%num%
-return
+	input, num, L1
+	if num between 1 and 8 
+		send ^%num%
+	return
 
 ; Browsing
 h:: send !{left} ; back in history
@@ -50,17 +52,18 @@ s:: send {end} ; go bottom  of page
 
 ; Search
 /:: 
-send ^f ; search in page
-Suspend on ;  back to Normal mode
-return ;
+	send ^f ; search in page
+	Suspend on ;  back to Normal mode
+	return ;
 
 
 ; Address Bar
 o:: 
-send !d ; edit url address
-Suspend on ;  switch to Normal mode
-return ;
+	send !d ; edit url address
+	Suspend on ;  switch to Normal mode
+	return ;
 
 ; Bookmarks
 a:: ^d ; add bookmark
+
 }
