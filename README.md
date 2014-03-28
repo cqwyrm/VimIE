@@ -8,7 +8,7 @@ Usage
 
  
 		Esc		toggle Vim/Normal mode
-		gn		switch to the "n"th tab ( n is an integer between 1 and 8)
+		gn		switch to the "n"th tab ( n is a number between 1 and 8)
         b       go to the last tab
 		a		add a bookmark
 		c		duplicate current tab
@@ -36,6 +36,5 @@ I have to use IE on my old laptop everyday. Chrome(Vimium) and Firefox(Vimperato
 
 Todo
 ====
-    Add a tray icon or sound alert when Normal mode is toggled.
-    When the cursor is in the address bar or search box, enter Normal mode automatically.
-  
+Add a tray icon or sound alert when Normal mode is toggled.
+When the cursor is in the address bar or search box, enter Normal mode automatically.
