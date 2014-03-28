@@ -9,16 +9,16 @@ Usage
  
 		Esc		toggle Vim/Normal mode
 		gn		switch to the "n"th tab ( n is a number between 1 and 8)
-        b       go to the last tab
 		a		add a bookmark
+        b       go back to the last viewed tab
 		c		duplicate current tab
 		d		close current tab
-		o		edit url address 
 		h		go back in history
 		l		go forward in history
  		j		move cursor up
  		k		move cursor down
 		n		go to next tab
+		o		edit url address 
 		p		go to previous tab
         q       open a search query in the address bar
 		r		refresh current tab
