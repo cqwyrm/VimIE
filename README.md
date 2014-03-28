@@ -36,5 +36,5 @@ I have to use IE on my old laptop everyday. Chrome(Vimium) and Firefox(Vimperato
 
 Todo
 ====
-Add a tray icon or sound alert when Normal mode is toggled.
-When the cursor is in the address bar or search box, enter Normal mode automatically.
+* Add a tray icon or sound alert when Normal mode is toggled.
+* When the cursor is in the address bar or search box, enter Normal mode automatically.
