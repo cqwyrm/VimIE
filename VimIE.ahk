@@ -27,7 +27,7 @@ d:: send ^w ; close a tab
 n:: send ^{tab} ; next tab
 p:: send ^+{tab} ; previous tab
 u:: send ^+t ; restore the last closed tab
-x:: send ^{F4} ; close all other tabs
+x:: send !{F4} ; quit IE
 r:: send {F5} ; refresh tab
 
 t:: 

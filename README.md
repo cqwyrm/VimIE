@@ -9,6 +9,7 @@ Usage
  
 		Esc		toggle Vim/Normal mode
 		gn		switch to the "n"th tab ( n is an integer between 1 and 8)
+        b       go to the last tab
 		a		add a bookmark
 		c		duplicate current tab
 		d		close current tab
@@ -25,6 +26,7 @@ Usage
 		t		open new tab
 		w		go top
 		s		go bottom
+        x       quit IE
 		/		search in page
 
 
