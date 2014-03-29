@@ -7,27 +7,27 @@ Usage
 =====
 
  
-* `Esc` toggle Vim/Normal mode
-* `gn`  switch to the "n"th tab ( n is a number between 1 and 8, for example press `g` and `5` will switch to the 5th tab)
-* `a`   add a bookmark
-* `b`   go back to the last viewed tab
-* `c`   duplicate current tab
-* `d`   close current tab
-* `h`   go back in history
-* `l`   go forward in history
-* `j`   move cursor up
-* `k`   move cursor down
-* `n`   go to next tab
-* `o`   edit url address 
-* `p`   go to previous tab
-* `q`   open a search query in the address bar
-* `r`   refresh current tab
-* `u`   reopen last closed tab
-* `t`   open new tab
-* `w`   go top
-* `s`   go bottom
-* `x`   quit IE
-* `/`   search in page
+* `Esc`		toggle Vim/Normal mode
+* `g``n`	switch to the "n"th tab ( n is a number between 1 and 8, for example press `g` and `5` will switch to the 5th tab)
+* `a`	add a bookmark
+* `b`	go back to the last viewed tab
+* `c`	duplicate current tab
+* `d`	close current tab
+* `h`	go back in history
+* `l`	go forward in history
+* `j`	move cursor up
+* `k`	move cursor down
+* `n`	go to next tab
+* `o`	edit url address 
+* `p`	go to previous tab
+* `q`	open a search query in the address bar
+* `r`	refresh current tab
+* `u`	reopen last closed tab
+* `t`	open new tab
+* `w`	go top
+* `s`	go bottom
+* `x`	quit IE
+* `/`	search in page
 
 
 Why
