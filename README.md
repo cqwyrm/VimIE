@@ -7,7 +7,7 @@ Usage
 =====
 
  
-		`Esc`		toggle Vim/Normal mode
+* `Esc`		toggle Vim/Normal mode
 		gn		switch to the "n"th tab ( n is a number between 1 and 8)
 		a		add a bookmark
         b       go back to the last viewed tab
