@@ -1,11 +1,10 @@
 VimIE
 =====
 
-Vim-l key bindings for Internet Explorer (IE). This AutoHotKey script works ONLY when IE is active.
+Vim-like key bindings for Internet Explorer (IE). This AutoHotKey script works ONLY when IE is active.
 
 Usage
 =====
-
  
 * `Esc`		toggle Vim/Normal mode
 * `g``n`	switch to the "n"th tab ( n is a number between 1 and 8, for example press `g` and `5` will switch to the 5th tab)
@@ -28,7 +27,6 @@ Usage
 * `s`	go bottom
 * `x`	quit IE
 * `/`	search in page
-
 
 Why
 ===
