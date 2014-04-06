@@ -8,6 +8,8 @@ Usage
  
 * `Esc`		toggle Vim/Normal mode
 * `g``n`	switch to the "n"th tab ( n is a number between 1 and 8, for example press `g` and `5` will switch to the 5th tab)
+* `z``i`	zoom in
+* `z``m`	zoom out
 * `a`	add a bookmark
 * `b`	go back to the last viewed tab
 * `c`	duplicate current tab

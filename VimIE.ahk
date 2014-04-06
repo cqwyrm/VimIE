@@ -11,7 +11,9 @@
 ; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 ; GNU General Public License for more details.
 ; modify it under the terms of the GNU General Public License as
-
+#NoEnv
+#Warn
+SetWorkingDir %A_ScriptDir%
 
 #IfWinActive ahk_class IEFrame ; works ONLY if IE is active
 
@@ -49,6 +51,19 @@ k:: send {up} ;  move up
 w:: send {home} ; go top of page
 s:: send {end} ; go bottom  of page
 
+
+;zoom in and out
+z::
+input, char, L1
+if ( char = "i")
+	{
+	send ^{+}
+}
+if ( char = "m")
+	{
+	send ^-
+}
+return
 
 ; Search
 /:: 
