@@ -19,7 +19,7 @@ SetWorkingDir %A_ScriptDir%
 
 {
 ; Mode Switching
-Esc:: Suspend ; toggle Vim/Normal mode
+Esc:: Suspend ; toggle on/off Vim mode
 
 ; Tabs
 
@@ -34,7 +34,7 @@ r:: send {F5} ; refresh tab
 
 t:: 
 	send ^t ; open new tab
-	Suspend on ; back to Normal mode
+	Suspend on ; Vim mode off
 	return ;
 
 g:: ; switch to the "N"th tab ("N" is a number between 1 and 8)
@@ -75,12 +75,12 @@ return
 ; Address Bar
 o:: 
 	send !d ; edit in the address bar
-	Suspend on ;  switch to Normal mode
+	Suspend on ;  Vim mode off
 	return ;
 
 q::
     ^e ; open a search query in the address bar
-    Suspend on ; enter Normal mode
+    Suspend on ; Vim mode off
     return ;
 
 ; Bookmarks

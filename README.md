@@ -6,7 +6,7 @@ Vim-like key bindings for Internet Explorer (IE). This AutoHotKey script works O
 Usage
 =====
  
-* `Esc`		toggle Vim/Normal mode
+* `Esc`		toggle on/off Vim mode
 * `g``n`	switch to the "n"th tab ( n is a number between 1 and 8, for example press `g` and `5` will switch to the 5th tab)
 * `z``i`	zoom in
 * `z``m`	zoom out
@@ -36,5 +36,5 @@ I have to use IE on my old laptop everyday. Chrome(Vimium) and Firefox(Vimperato
 
 Todo
 ====
-1. Add a tray icon or sound alert when Normal mode is toggled.
-2. When the cursor is in the address bar or search box, enter Normal mode automatically.
+1. Add a tray icon or sound alert when Vim mode is off.
+2. When the cursor is in the address bar or search box, turn off Vim mode automatically.
